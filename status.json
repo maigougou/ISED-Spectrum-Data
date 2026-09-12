@@ -1,7 +1,7 @@
 {
-  "lastCheckedAt": "2026-09-12T21:48:08Z",
-  "lastPublishedAt": "2026-09-12T21:54:31Z",
-  "lastSuccessfulCheckAt": "2026-09-12T21:54:31Z",
-  "message": "Refusing to push private pipeline state to an unexpected remote",
-  "status": "failed"
+  "lastCheckedAt": "2026-09-12T21:58:00Z",
+  "lastPublishedAt": "2026-09-12T22:05:46Z",
+  "lastSuccessfulCheckAt": "2026-09-12T22:05:46Z",
+  "message": "A verified dataset was published.",
+  "status": "published"
 }
