@@ -1,8 +1,10 @@
-# ISED source column selection · schema v1
+# ISED source column selection · schema v2
 
 Column letters refer to the original CSV opened in Excel, A–BI. Match by header name during processing.
 
-**Retain 32 columns. Exclude exactly the 29 listed columns.** TX and RX fields are treated individually; an excluded RX field is never guessed from TX. Shared values are normalized, and differing values in any retained column remain represented by `source_projection`.
+**Retain exactly 32 columns in `source_projection`; exclude the 29 listed columns from that projection.** Shared values are normalized, and differing values in any retained column remain represented. Source P is stored once in `source_cells` and referenced by physical `radio_records`; the `radios` LEFT JOIN view restores its original text without dropping unknown Cell IDs or merging configurations across sites/technologies.
+
+Schema 2 deliberately preserves sparse exceptions for AC/AG outside this projection in `radio_equipment_exceptions(rx_model, rx_certification_no)`. RX/TX values are compared exactly while both are available. Matching values share TX storage; within an exception NULL inherits TX and `''` preserves an explicitly empty RX. The exception tuple participates in radio deduplication, so conflicting RX values keep their own filing and warning associations. This is a narrowly scoped exception to physical field exclusion, not an extra projection column or a guessed RX value. All other excluded fields remain absent; their permitted diagnostic/correction codes may survive. The validator permits `rx_certification_no` only in this sparse table and rejects excluded column names elsewhere.
 
 ## Retained
 
