@@ -1,7 +1,7 @@
 {
-  "lastCheckedAt": "2026-09-13T14:10:24Z",
-  "lastPublishedAt": "2026-09-13T01:56:52Z",
-  "lastSuccessfulCheckAt": "2026-09-13T14:10:24Z",
-  "message": "ISED metadata is unchanged.",
-  "status": "unchanged"
+  "lastCheckedAt": "2026-09-14T04:17:54Z",
+  "lastPublishedAt": "2026-09-14T04:23:32Z",
+  "lastSuccessfulCheckAt": "2026-09-14T04:23:32Z",
+  "message": "A verified dataset was published.",
+  "status": "published"
 }

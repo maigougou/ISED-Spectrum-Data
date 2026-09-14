@@ -1,0 +1,17 @@
+{
+  "compressedBytes": 90845673,
+  "configurationCount": 1723155,
+  "databaseSHA256": "83dc4baad63d56903d7b964863df6c1f9db097b8097abf5f963c72985edd9ea8",
+  "generatedAt": "2026-09-14T04:20:31Z",
+  "minimumClientVersion": "1.0.0",
+  "minimumPreparedVersion": 12,
+  "preparedVersion": 12,
+  "schemaVersion": 2,
+  "sha256": "8fae22c3fae495c8d67bc81598c338b2a99dc78c30c472291a5546e06a232f1a",
+  "siteCount": 83514,
+  "sourceDate": "2026-09-02",
+  "sourceURL": "https://www.ic.gc.ca/engineering/SMS_TAFL_Files/Site_Data_Extract_FX.zip",
+  "uncompressedBytes": 304422912,
+  "url": "https://github.com/maigougou/ISED-Spectrum-Data/releases/download/data-v2-2026-09-02-20260914T041754Z-7ad712f4/ised-sms-terrestrial-2026-09-02-v2.zip",
+  "version": "2026-09-02-20260914T041754Z-7ad712f4"
+}
